@@ -273,7 +273,7 @@ javadoc {
 allprojects {
 
 	license {
-		header project.rootProject.file("codeformat/FABRIC-HEADER")
+		header project.rootProject.file("codeformat/FABRIC-HEADER","HEADER")
 		include '**/*.java'
 
 		// Exclude gson since it is google's code, we just modify and bundle it
